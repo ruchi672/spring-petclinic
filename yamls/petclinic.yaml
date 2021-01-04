@@ -15,5 +15,5 @@ spec:
         app: petclinic
     spec:
       containers:
-      - image: anthonydahanne/spring-petclinic:latest
+      - image: paulczar/petclinic:spring-k8s-1
         name: petclinic
