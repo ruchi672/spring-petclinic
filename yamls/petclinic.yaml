@@ -15,5 +15,5 @@ spec:
         app: petclinic
     spec:
       containers:
-      - image: arey/springboot-petclinic:latest
+      - image: anthonydahanne/spring-petclinic:latest
         name: petclinic
