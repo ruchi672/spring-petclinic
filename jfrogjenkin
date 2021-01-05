@@ -1,7 +1,7 @@
 node {
   
   stage('GIT CheckOut') {
-    git 'https://github.com/ruchi672/spring-petclinic.git'
+    git branch: 'main', url: 'https://github.com/ruchi672/spring-petclinic.git'
   }
 
   stage('Maven-Clean') {
